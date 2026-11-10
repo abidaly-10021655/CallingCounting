@@ -59,5 +59,7 @@ public class Counter
 		Instant time = Instant.now();
 		Counter counter = new Counter();
 		System.out.println(time.getNano()/1000_000 + "ms");
+
+		System.out.println("Successfully completed the program successfully");
 	}
 }
