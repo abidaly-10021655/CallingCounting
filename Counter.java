@@ -55,6 +55,9 @@ public class Counter
 	}
 	public static void main(String[]args)
 	{
+		//starts timer before making counter and prints the time after it finishes
+		Instant time = Instant.now();
 		Counter counter = new Counter();
+		System.out.println(time.getNano()/1000_000 + "ms");
 	}
 }
